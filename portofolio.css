@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left bottom, #487482, black);
+    color: white;
+    padding-bottom: 100px;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    color: white;
+    border-bottom: 1.5px solid #00FFFF;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbarTitle{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    padding-left: 50px;
+    color: #00FFFF;
+    text-shadow: 2px 2px 4px #00FFFF;
+}
+
+
+.aboutTitle, .skills-Title, .projectTitle, .contactTitle{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #00FFFF;
+    text-shadow: 2px 2px 4px #00FFFF;
+}
+
+.skills-Title, .projectTitle, .contactTitle{
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+#about{
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.aboutLR{
+    display: flex;
+}
+
+.aboutMe{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.aboutParagraph{
+    color: white;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+
+.aboutCaption{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+th, td{
+    color: white;
+    text-align: left;
+}
+
+img{
+    border-radius: 30%;
+    box-shadow: 0px 0px 20px 0px #00FFFF;
+}
+
+#skills{
+    padding-left: 100px;
+}
+
+.skills-List{
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.html, .css, .js, .web1, .web2{
+    background-color: #00FFFF;
+    box-shadow: 0px 0px 20px 0px #00FFFF;
+    color: #487482;
+    border-radius: 20%;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.html > .skills-Paragraph, .js > .skills-Paragraph{
+    padding-bottom: 34px;
+    padding-top: 5px;
+}
+
+.css > .skills-Paragraph{
+    padding-bottom: 52px;
+    padding-top: 5px;
+}
+
+.web1 > .skills-Paragraph, .web2 > .skills-Paragraph{
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.skills-List i{
+    font-size: 30px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-Pdf{
+    border: 2px solid #487482;
+    background-color: #487482;
+    text-decoration: none;
+    color: white;
+    margin-top: -20px;
+    border-radius: 10%;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.projectTitle{
+    padding-left: 100px;
+}
+.projectParagraph{
+    color: white;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+#project > iframe{
+    background-color: white;
+}
+
+#project > a {
+    border: 2px solid #00FFFF;
+    background-color: #00FFFF;
+    box-shadow: 0px 0px 20px 0px #00FFFF;
+    text-decoration: none;
+    color: #487482;
+    padding: 5px;
+    font-weight: bold;
+    float: right;
+}
+
+#contact{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contactIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.contactIcons a i{
+    color: white;
+    font-size: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.mail, .wa, .ig, .dc,.p{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-bottom: 100px;
+    }
+
+    .navbarTitle {
+        padding-left: 20px;
+    }
+    
+    .aboutTitle, .skills-Title, .projectTitle, .contactTitle {
+        padding-top: 30px;
+        font-size: 24px;
+    }
+
+    #skills, .html, .css, .js, .web1, .web2{
+        padding: 20px;
+        margin: 50px;
+    }
+
+    #skills, .skills-Pdf{
+       margin: 20px;
+       padding: 10px;
+    }
+
+    #about {
+        padding: 30px 20px;
+    }
+
+    .aboutLR{
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutParagraph {
+        padding-right: 20px;
+    }
+
+    .aboutRight {
+        padding-top: 20px;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #skills {
+        padding: 20px;
+    }
+
+    .skills-List {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .html, .css, .js, .web1, .web2 {
+        padding: 20px;
+        margin: 50px;
+    }
+
+    .html > .skills-Paragraph, .js > .skills-Paragraph{
+        padding-bottom: 34px;
+        padding-top: 5px;
+    }
+    
+    .css > .skills-Paragraph{
+        padding-bottom: 52px;
+        padding-top: 5px;
+    }
+    
+    .web1 > .skills-Paragraph, .web2 > .skills-Paragraph{
+        padding-bottom: 15px;
+        padding-top: 5px;
+    }
+
+    .skills-Pdf {
+        margin-top: 10px;
+    }
+
+    .projectTitle {
+        padding-left: 20px;
+    }
+
+    .projectParagraph {
+        padding-left: 20px;
+    }
+
+    #project > iframe {
+        height: 200px;
+    }
+    
+    .contactIcons a i{
+        color: white;
+        font-size: 30px;
+        padding-right: 33px;
+        padding-left: 33px;
+    }
+}
+
