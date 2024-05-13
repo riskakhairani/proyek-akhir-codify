@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <script src="portofolio.js"></script>
+    <link rel="stylesheet" href="portofolio.css">
+    <link rel="shortcut icon" href="Asset/logo.png" type="image/x-icon">
+
+    <!-- font BAB -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Oleo+Script:wght@400;700&family=Permanent+Marker&family=Titan+One&display=swap" rel="stylesheet">
+
+    <!-- font SubBab -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaini&family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- font aboutMe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaini&family=Lobster&family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbarTitle" href="#">PORTOFOLIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="about">
+        <h3 class="aboutTitle">About Me</h3>
+        <h4 class="aboutMe">Hi, It's Ikaa</h4>
+        <div class="aboutLR">
+            <div class="aboutLeft">
+                <p class="aboutParagraph">
+                    Alumni dari MAN 1 Mandailing Natal jurusan IPA yang kini sedang menempuh pendidikan sebagai Mahasiswa Semester 2 
+                    Program Studi Teknologi Rekayasa Perangkat Lunak Jurusan Teknik Komputer dan Informatika di Politeknik Negeri Medan.
+                </p>
+                <p class="aboutCaption">Some More Information</p>
+                <table class="aboutTable" cellpadding="5">
+                    <tr>
+                        <th>Nama</th>
+                        <td>:</td>
+                        <td>Riska Khairani Nasution</td>
+                    </tr>
+                    <tr>
+                        <th>NIM</th>
+                        <td>:</td>
+                        <td>2305181015</td>
+                    </tr>
+                    <tr>
+                        <th>Asal</th>
+                        <td>:</td>
+                        <td>Panyabungan, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <th>Umur</th>
+                        <td>:</td>
+                        <td>18 tahun</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="aboutRight">
+                <img src="./Asset/photo.jpg" width="280px" height="280px">
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h3 class="skills-Title">My Skills</h3>
+        <div class="skills-List">
+            <div class="html">
+                <i class='bx bxl-html5'></i>
+                <p class="skills-Paragraph">HTML Dasar</p>
+                <a class="skills-Pdf" href="./Asset/HTML Dasar.pdf">Cek</a>
+            </div>
+            <div class="css">
+                <i class='bx bxl-css3' ></i>
+                <p class="skills-Paragraph">CSS Dasar</p>
+                <a class="skills-Pdf" href="./Asset/CSS Dasar.pdf">Cek</a>
+            </div>
+            <div class="js">
+                <i class='bx bxl-javascript'></i>
+                <p class="skills-Paragraph">JavaScript Dasar</p>
+                <a class="skills-Pdf" href="./Asset/JavaScript Dasar.pdf">Cek</a>
+            </div>
+            <div class="web1">
+                <i class='bx bx-code-alt'></i>
+                <p class="skills-Paragraph">Web Development Pemula</p>
+                <a class="skills-Pdf" href="./Asset/Web Development Pemula.pdf">Cek</a>
+            </div>
+            <div class="web2">
+                <i class='bx bx-code-alt'></i>
+                <p class="skills-Paragraph">Intro to Software Engineering</p>
+                <a class="skills-Pdf" href="./Asset/Intro to Software Engineering.pdf">Cek</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="project">
+        <h3 class="projectTitle">My Project</h3>
+        <p class="projectParagraph">Ini adalah hasil tampilan proyek saya pada pelatihan Revou.</p>
+        <iframe src="https://revou-fundamental-course.github.io/22-jan-24-riskakhairani/" width="100%" height="300px"></iframe>
+        <a href="https://github.com/revou-fundamental-course/22-jan-24-riskakhairani">Cek kode disini</a>
+    </div>
+
+    <div id="contact">
+        <h3 class="contactTitle">Contact Me</h3>
+        <div class="contactIcons">
+            <div class="mail">
+                <a href="mailto:riskakhairaninasution@gmail.com"><i class='bx bx-envelope'></i></a>
+                <p>Email</p>
+            </div>
+            <div class="wa">
+                <a href="https://api.whatsapp.com/send?phone=085172329597"><i class='bx bxl-whatsapp'></i></a>
+                <p>WhatsApp</p>
+            </div>
+            <div class="ig">
+                <a href="https://www.instagram.com/riskakhairani.13"><i class='bx bxl-instagram'></i></a>
+                <p>Instagram</p>
+            </div>
+            <div class="dc">
+                <a href="https://discord.com/users/im.ikaa" target="_blank"><i class='bx bxl-discord-alt' ></i></a>
+                <p>Discord</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="portofolio.js"></script>
+</body>
+</html>
